@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    /* background-color: rgb(198, 152, 241); */
+    padding: 34px;
+    margin: auto;
+}
+.container h1, p{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+p{
+    font-size: 20px;    
+}
+input, textarea{
+
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 25px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: black;
+    background: linear-gradient(180deg, white, maroon);
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 14px;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+}
+.bg{
+    width: 100%;
+    height: 140%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+}
+.SubmitMsg{
+    font-size: 20px;
+    color: maroon;
+}
